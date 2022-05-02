@@ -1,0 +1,24 @@
+
+<section>
+    <article class="card" *ngFor="let entry of entries">
+      <div class="card-header" [routerLink]="'/blog/'+ entry.id">
+        <img [src]="entry.thumbnail" alt="rover" />
+      </div>
+      <div class="card-body">
+        <span class="tag tag-teal">Technology</span>
+        <h4>
+          {{entry.title}}
+        </h4>
+        <p>
+            {{entry.description}}
+        </p>
+        <div class="user">
+          <img src="./assets/logo.jpg" alt="user" title="jackeando" />
+          <div class="user-info">
+            <h5>{{entry.date}}</h5>
+          </div>
+        </div>
+      </div>
+    </article>
+
+</section>
