@@ -1,6 +1,30 @@
 
 <article class="container">
     <h1 class="entry-title">{{ blogDetails?.title }} </h1>
-    <h3 class="date"> {{ blogDetails?.date }} </h3>
+    <h2 class="date"> {{ blogDetails?.date }} </h2>
+    <p>{{blogDetails?.description}}</p>
+    <hr>
     <div [innerHTML]="blogDetails?.blog"></div>
+
+    <h2>Nivel 0</h2>
+    <h3>Servidor</h3>
+    <p>Pw: Bandit0</p>
+    <div class="terminal">
+        <pre>ssh bandit0@bandit.labs.overthewire.org - p 2220</pre>
+    </div>
+    <h3>Aprendizajes:</h3>
+    <p>En este nivel 0 aprendemos el uso de los siguientes comandos de linux</p>
+    <blockquote>
+        <ul>
+            <li><code></code>ls: Lista los archivos y carpetas</li>
+            <li><code>cat nombreArchivo</code> Enseña por pantalla el contenido de un archivo</li>
+        </ul>
+    </blockquote>
+
+    <h3>Solución</h3>
+    <div class="terminal">
+        <pre>ssh bandit0@bandit.labs.overthewire.org - p 2220</pre>
+    </div>
 </article>
+
+

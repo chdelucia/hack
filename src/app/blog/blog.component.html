@@ -4,7 +4,7 @@
       <div class="card-header" [routerLink]="'/blog/'+ entry.id">
         <img [src]="entry.thumbnail" alt="rover" />
       </div>
-      <div class="card-body">
+      <div class="card-body" [routerLink]="'/blog/'+ entry.id">
         <span class="tag tag-teal">Technology</span>
         <h4>
           {{entry.title}}
