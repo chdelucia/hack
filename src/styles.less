@@ -3,12 +3,28 @@
 .terminal {
     position: relative;
     width: 80%;
-    max-width: 600px;
+    min-width: 600px;
+    max-width: 700px;
     border-radius: 6px;
     padding-top: 45px;
     margin-top: 8px;
     overflow: hidden;
     background-color: rgb(15, 15, 16);
+    img {
+      width: 25px;
+      position: absolute;
+      right: 5px;
+      bottom: 15px;
+      transition: all .2s ease;
+      &:hover{
+        cursor: pointer;
+        filter: brightness(2);
+      }
+      &:active,&:focus {
+        transform:translateY(-2px);
+        filter: brightness(.8);
+      }
+    }
   }
 
   .terminal::before {
@@ -32,3 +48,30 @@
     padding: 0 1rem 1rem;
     margin: 0;
   }
+
+blockquote {
+    border-left: .25em solid;
+    margin: 1em;
+    padding: 0 1em;
+    font-style: italic;
+}
+.hidden{
+  visibility: hidden;
+}
+.spoiler-btn {
+  background: #e74c4c;
+  margin:0 auto;
+  max-width: 200px;
+  padding: 5px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 1s ease;
+  &.hidden {
+    display: none;
+  }
+  &:hover {
+    cursor: pointer;
+    transform:translateY(-2px);
+    box-shadow: 0 2px 20px rgb(0 0 0 / 20%)
+  }
+}

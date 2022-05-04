@@ -1,13 +1,12 @@
 [
         {
             "id":"0",
-            "name":"ctf-facil",
+            "name":"ctf-banditi",
             "thumbnail":"https://overthewire.org/img/domokitten.png",
             "date":"2 Mayo 2022",
-            "description":"Esto es un CTF de nivel 0 (totalmente novato) para aprender comandos básicos de linux",
+            "description":"Esto es un CTF de nivel 0 (totalmente novato) para aprender comandos básicos de linux. Web del reto: https://overthewire.org/",
             "tags":["Metalworker","Woodcarver","Stonecarver"," Tinker","Tailor","Potter"],
-            "title":"CTF BANDIT",
-            "blog": "<h2>AboutUs</h2><pclass='fg-white'>CSMTechnologiesisapioneerinprovidingconsulting</p>"
+            "title":"CTF BANDIT de 0 al 13"
         },
         {
             "id":"1",
@@ -16,8 +15,7 @@
             "date":"1 Mayo 2022",
             "description":"Pink",
             "tags":["Metalworker","Woodcarver","Stonecarver"," Tinker","Tailor","Potter"],
-            "title":"Cogwitz Chillwidget",
-            "blog": "<h2 class='fg-white'>AboutUs</h2><pclass='fg-white'>CSMTechnologiesisapioneerinprovidingconsulting</p>"
+            "title":"Cogwitz Chillwidget"
         }
 ]
  

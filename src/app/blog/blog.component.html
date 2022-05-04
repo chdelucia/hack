@@ -1,10 +1,10 @@
 
 <section>
     <article class="card" *ngFor="let entry of entries">
-      <div class="card-header" [routerLink]="'/blog/'+ entry.id">
+      <div class="card-header" [routerLink]="'/blog/'+ entry.name">
         <img [src]="entry.thumbnail" alt="rover" />
       </div>
-      <div class="card-body" [routerLink]="'/blog/'+ entry.id">
+      <div class="card-body" [routerLink]="'/blog/'+ entry.name">
         <span class="tag tag-teal">Technology</span>
         <h4>
           {{entry.title}}

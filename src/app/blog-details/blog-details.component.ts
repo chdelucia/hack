@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit  } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { BlogService } from '../blog.service';
 import { Blog } from '../models/blog';
@@ -12,13 +12,56 @@ import { Blog } from '../models/blog';
 export class BlogDetailsComponent implements OnInit {
 
   blogDetails: Blog | undefined = undefined;
-  blogHtml = '';
-  constructor(private route: ActivatedRoute, private blog: BlogService) { }
+  blogHtml: string = '';
+
+  constructor(
+    private route: ActivatedRoute, 
+    private blog: BlogService,
+    ) { }
 
   ngOnInit(): void {
     const blogID = this.route.snapshot.paramMap.get('id') || '0';
     const blog = this.blog.getBlogbyId(blogID);
     this.blogDetails = blog;
-    this.blogHtml = this.blogDetails?.blog || '';
+   
+    this.getHtml(blogID);
   }
+
+  async getHtml(blogID: string): Promise<void> {
+    const html = await this.blog.getBlogHtmlbyId(blogID);
+    this.blogHtml = html;
+  
+  }
+
+  toggleVisibility(e: MouseEvent): void{
+    let button = (e.target as HTMLElement);
+
+    if(button.classList[0] && button.classList[0] === 'spoiler-btn') {
+      this.showSolutions(button);
+    }
+    else if(button.classList[0] && button.classList[0] === 'clipboard') {
+      this.copyToClipboard(button);
+    }
+  }
+
+  showSolutions(e: HTMLElement): void {
+    e.classList.add('hidden');
+    e.nextElementSibling?.classList.remove('hidden');
+  }
+
+  copyToClipboard(e: HTMLElement): void {
+    let value = e.nextElementSibling?.textContent || '';
+    const selBox = document.createElement('textarea');
+    selBox.style.position = 'fixed';
+    selBox.style.left = '0';
+    selBox.style.top = '0';
+    selBox.style.opacity = '0';
+    selBox.value = value;
+    document.body.appendChild(selBox);
+    selBox.focus();
+    selBox.select();
+    document.execCommand('copy');
+    document.body.removeChild(selBox);
+  }
+
 }
