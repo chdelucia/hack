@@ -24,8 +24,8 @@ export class BlogService {
 
   async getBlogHtmlbyId(name: string): Promise<string> {
     let code= '';
-    const a = await import(`../data/ctf-banditi`);
-    code = a.html;
+    const a = await import(`../data/ctfbanditi`);
+    code = a.blog;
     return code;
   }
 }
