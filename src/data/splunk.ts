@@ -32,7 +32,16 @@ Seleccionamos la opción <strong>Segment in path</strong> con la opción a 1. Y 
 <img class="responsive" src="./assets/img/splunk4.PNG">
 
 <h4>Paso 3: Empieza lo bueno</h4>
-<p>Ya tenemos todos los datos cargados solo tenemos que recordar el nombre de nuestro zip para acceder a los datos de búsqueda <strong>source="tutorialdata.zip:*"</strong></p>
+<p>Ya tenemos todos los datos cargados solo tenemos que recordar el nombre de nuestro zip para acceder a los datos de búsqueda <strong>source="tutorialdata.zip:*"</strong>
+
+A partir de aqui existen 1 millon de combinaciones posibles para buscar información, pero tranquilo que no te hace falta que te sepas de memoria lo que tienes que buscar.
+Hay un menu lateral en la izquierda bastante amigable que te permite navegar
+
+<iframe width="935" height="526" src="https://www.youtube.com/embed/rpWYXp2u2aQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+
+que le pasa a esto?
+</p>
 
 
 
