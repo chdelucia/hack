@@ -23,9 +23,14 @@ export class BlogService {
   }
 
   async getBlogHtmlbyId(name: string): Promise<string> {
-    let code= '';
-    const a = await import(`../data/ctfbanditi`);
-    code = a.blog;
-    return code;
+    let code;
+    if(name === 'ctfbanditi') {
+      code = await import(`../data/ctfbanditi`);
+    }
+    else if (name === 'splunk') {
+      code = await import(`../data/splunk`);
+    } 
+
+    return code?.blog || '';
   }
 }

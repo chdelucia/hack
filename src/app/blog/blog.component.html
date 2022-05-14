@@ -5,7 +5,7 @@
         <img [src]="entry.thumbnail" alt="rover" />
       </div>
       <div class="card-body" [routerLink]="'/blog/'+ entry.name">
-        <span class="tag tag-teal">Technology</span>
+        <span *ngFor="let tag of entry.tags" class="tag tag-teal">{{tag}}</span>
         <h4>
           {{entry.title}}
         </h4>

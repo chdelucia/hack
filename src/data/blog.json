@@ -5,17 +5,35 @@
             "thumbnail":"https://overthewire.org/img/domokitten.png",
             "date":"2 Mayo 2022",
             "description":"CTF de nivel 0 (totalmente novato) para aprender comandos básicos de linux. Web del reto: https://overthewire.org/",
-            "tags":["Metalworker","Woodcarver","Stonecarver"," Tinker","Tailor","Potter"],
+            "tags":["Linux","Pentesting","Iniciado","CTF"],
             "title":"CTF BANDIT de 0 al 12"
         },
         {
             "id":"1",
             "name":"ctf-bandit-parteII",
             "thumbnail":"http://www.publicdomainpictures.net/pictures/10000/nahled/thinking-monkey-11282237747K8xB.jpg",
-            "date":"5 Mayo 2022",
+            "date":"8 Mayo 2022",
             "description":"Parte 2 del reto CTF para novatos",
-            "tags":["Metalworker","Woodcarver","Stonecarver"," Tinker","Tailor","Potter"],
+            "tags":["Linux","Pentesting","Iniciado","CTF"],
             "title":"CTF BANDIT del 13 al 24"
+        },
+        {
+            "id":"3",
+            "name":"splunk",
+            "thumbnail":"https://upload.wikimedia.org/wikipedia/commons/4/47/Arquitectura_de_Splunk.svg",
+            "date":"14 Mayo 2022",
+            "description":"Crea tu primer SIEM con Splunk, la herramienta de monitorización para anticiparse a los ataques.",
+            "tags":["Herramienta","Splunk","SIEM","Práctica Universitaria"],
+            "title":"Descubriendo Splunk la herramienta mas usada en las empresas Parte I"
+        },
+        {
+            "id":"4",
+            "name":"informationGathering",
+            "thumbnail":"http://www.publicdomainpictures.net/pictures/10000/nahled/thinking-monkey-11282237747K8xB.jpg",
+            "date":"11 Mayo 2022",
+            "description":"Primera etapa de un pentesting, recabar información",
+            "tags":["Linux","Pentesting","Iniciado","CTF","Práctica Universitaria"],
+            "title":"Busqueda de información"
         }
 ]
  
