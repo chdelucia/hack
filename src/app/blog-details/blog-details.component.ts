@@ -2,6 +2,7 @@ import { Component, OnInit  } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { BlogService } from '../blog.service';
 import { Blog } from '../models/blog';
+import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 
 
 @Component({
@@ -12,24 +13,24 @@ import { Blog } from '../models/blog';
 export class BlogDetailsComponent implements OnInit {
 
   blogDetails: Blog | undefined = undefined;
-  blogHtml: string = '';
+  blogHtml: SafeHtml = '';
 
   constructor(
     private route: ActivatedRoute, 
     private blog: BlogService,
+    private _sanitizer: DomSanitizer
     ) { }
 
   ngOnInit(): void {
     const blogID = this.route.snapshot.paramMap.get('id') || '0';
-    const blog = this.blog.getBlogbyId(blogID);
-    this.blogDetails = blog;
-   
+    this.blogDetails = this.blog.getBlogbyId(blogID);
+
     this.getHtml(blogID);
   }
 
   async getHtml(blogID: string): Promise<void> {
     const html = await this.blog.getBlogHtmlbyId(blogID);
-    this.blogHtml = html;
+    this.blogHtml = this._sanitizer.bypassSecurityTrustHtml(html);
   
   }
 
