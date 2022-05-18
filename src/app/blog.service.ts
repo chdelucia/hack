@@ -30,6 +30,9 @@ export class BlogService {
     else if (name === 'splunk') {
       code = await import(`../data/splunk`);
     } 
+    else if (name === 'hackbox1') {
+      code = await import(`../data/hackbox1`);
+    } 
 
     return code?.blog || '';
   }

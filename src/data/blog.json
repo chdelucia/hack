@@ -28,12 +28,21 @@
         },
         {
             "id":"4",
+            "name":"hackbox1",
+            "thumbnail":"../assets/img/portadaHackbox.png",
+            "date":"16 Mayo 2022",
+            "description":"Iniciandose en el arte del pentesting con HackteBox.",
+            "tags":["CTF","Iniciado","Pentesting","Práctica Universitaria"],
+            "title":"CTF Hackthebox Tier I y II"
+        },
+        {
+            "id":"5",
             "name":"informationGathering",
             "thumbnail":"http://www.publicdomainpictures.net/pictures/10000/nahled/thinking-monkey-11282237747K8xB.jpg",
             "date":"11 Mayo 2022",
             "description":"Primera etapa de un pentesting, recabar información",
             "tags":["Linux","Pentesting","Iniciado","CTF","Práctica Universitaria"],
-            "title":"Busqueda de información"
+            "title":"Busqueda de información pasiva"
         }
 ]
  
