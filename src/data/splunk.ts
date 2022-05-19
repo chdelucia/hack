@@ -2,7 +2,9 @@ export const blog =
 `
 <h2>Que es un SIEM</h2>
 
-<p> Explicar que es un siem</p>
+<p> ¿Qué es un sistema SIEM? La información sobre seguridad y gestión de eventos o SIEM (Security Information and Event Management) es un sistema de seguridad que persigue proporcionar a las empresas una respuesta rápida y precisa para detectar y responder ante cualquier amenaza sobre sus sistemas informáticos.
+En palabras humanas un dashboard bonito que registra en un unico sitio todo lo que pasa en la red, o en la web, o en el servicio que quieras.
+A partir de ahi puedes configurar avisos por sms o email u otras acciones.</p>
 
 <h2> Empezamos al turrón!</h2>
 

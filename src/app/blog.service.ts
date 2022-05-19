@@ -33,6 +33,9 @@ export class BlogService {
     else if (name === 'hackbox1') {
       code = await import(`../data/hackbox1`);
     } 
+    else if (name === 'ids') {
+      code = await import(`../data/ids`);
+    } 
 
     return code?.blog || '';
   }

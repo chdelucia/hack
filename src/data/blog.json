@@ -32,17 +32,26 @@
             "thumbnail":"../assets/img/portadaHackbox.png",
             "date":"16 Mayo 2022",
             "description":"Iniciandose en el arte del pentesting con HackteBox.",
-            "tags":["CTF","Iniciado","Pentesting","Práctica Universitaria"],
+            "tags":["CTF","Iniciado","Pentesting"],
             "title":"CTF Hackthebox Tier I y II"
         },
         {
             "id":"5",
             "name":"informationGathering",
-            "thumbnail":"http://www.publicdomainpictures.net/pictures/10000/nahled/thinking-monkey-11282237747K8xB.jpg",
+            "thumbnail":"../assets/img/osint.jpg",
             "date":"11 Mayo 2022",
-            "description":"Primera etapa de un pentesting, recabar información",
-            "tags":["Linux","Pentesting","Iniciado","CTF","Práctica Universitaria"],
-            "title":"Busqueda de información pasiva"
+            "description":"Primera etapa de un pentesting, recabar información de manera pasiva de fuentes abiertas. Vamos a practicar como realizar esta primera etapa de recolección de información totalmente de manera pasiva y con fuentes abiertas.",
+            "tags":["Information Gathering","Práctica Universitaria", "OSINT"],
+            "title":"Practica OSINT Busqueda de información pasiva de una empresa"
+        },
+        {
+            "id":"6",
+            "name":"ids",
+            "thumbnail":"../assets/img/idsips.png",
+            "date":"18 Mayo 2022",
+            "description":"Teoria practica sobre las diferencias entre firewall, ids y sus tipos. Además de un pequeño ejemplo de como bloquear un servidor malicioso",
+            "tags":["IDS/IPS","Teoria", "Snort", "Herramienta"],
+            "title":"Configurando un IDS con SNORT"
         }
 ]
  
