@@ -55,8 +55,8 @@ se autobloquee.
 <img src="./assets/img/ids2.png">
 
 
-<p>El tráfico que ingresa al firewall y tiene como destino al propio dispositivo de firewall es manejado por la cadena INPUT. Como ejemplo de este tráfico podemos mencionar a los paquetes de ping provenientes de cualquier otro dispositivo en cualquier red y enviados a cualquiera de las interfaces del firewall.<br>
-El tráfico que se origina en el propio dispositivo de firewall y tiene como destino cualquier otro lugar es manejado por la cadena OUTPUT. Un ejemplo de este tráfico son las respuestas de ping generadas por el propio dispositivo de firewall.<br>
-El tráfico originado en cualquier otro lugar y que atraviesas el dispositivo de firewall es manejado por la cadena FORWARD. Un ejemplo de este tráfico son los paquetes que está enrutando el firewall.<br>
+<p>El tráfico que ingresa al firewall y tiene como destino al propio dispositivo de firewall es manejado por la cadena <b>INPUT</b>. Como ejemplo de este tráfico podemos mencionar a los paquetes de ping provenientes de cualquier otro dispositivo en cualquier red y enviados a cualquiera de las interfaces del firewall.<br><br>
+El tráfico que se origina en el propio dispositivo de firewall y tiene como destino cualquier otro lugar es manejado por la cadena <b>OUTPUT</b>. Un ejemplo de este tráfico son las respuestas de ping generadas por el propio dispositivo de firewall.<br><br>
+El tráfico originado en cualquier otro lugar y que atraviesas el dispositivo de firewall es manejado por la cadena <b>FORWARD.</b> Un ejemplo de este tráfico son los paquetes que está enrutando el firewall.<br><br>
 </p>
 `

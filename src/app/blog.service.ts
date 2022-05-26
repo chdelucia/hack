@@ -36,6 +36,9 @@ export class BlogService {
     else if (name === 'ids') {
       code = await import(`../data/ids`);
     } 
+    else if (name === 'informationGathering') {
+      code = await import(`../data/informationGathering`);
+    }
 
     return code?.blog || '';
   }
