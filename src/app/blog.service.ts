@@ -39,6 +39,13 @@ export class BlogService {
     else if (name === 'informationGathering') {
       code = await import(`../data/informationGathering`);
     }
+    else if (name === 'sguil-detectar-ataque-ftp') {
+      code = await import(`../data/sguil`);
+    }
+    else if (name === 'kibana-detectar-sql-injection') {
+      code = await import(`../data/kibana`);
+    }
+
 
     return code?.blog || '';
   }

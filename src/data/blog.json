@@ -52,6 +52,24 @@
             "description":"Teoria practica sobre las diferencias entre firewall, ids y sus tipos. Además de un pequeño ejemplo de como bloquear un servidor malicioso",
             "tags":["IDS/IPS","Teoria", "Snort", "Herramienta"],
             "title":"Configurando un IDS con SNORT"
+        },
+        {
+            "id":"7",
+            "name":"sguil-detectar-ataque-ftp",
+            "thumbnail":"./assets/img/protocolo-ftp.webp",
+            "date":"23 Mayo 2022",
+            "description":"Práctica de cyberops para analizar un ataque realizado a un servidor FTP vulnerable. Utilizando Sguil y Kibana",
+            "tags":["IDS/IPS", "Sguil", "Practica", "Kibana"],
+            "title":"Detección y visualización de ataques FTP con Sguil"
+        },
+        {
+            "id":"8",
+            "name":"kibana-detectar-sql-injection",
+            "thumbnail":"./assets/img/dns.jpg",
+            "date":"26 Mayo 2022",
+            "description":"Práctica de cyberops para analizar un ataque realizado a un servidor web mediante SQL injection. Utilizando Kibana y DNS",
+            "tags":["IDS/IPS", "Sguil", "Practica", "Kibana"],
+            "title":"Detección y visualización de ataques SQL injection con Kibana"
         }
 ]
  
