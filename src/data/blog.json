@@ -2,6 +2,7 @@
         {
             "id":"0",
             "name":"ctf-bandit-parteI",
+            "fileName": "ctfbanditi",
             "thumbnail":"https://overthewire.org/img/domokitten.png",
             "date":"2 Mayo 2022",
             "description":"CTF de nivel 0 (totalmente novato) para aprender comandos básicos de linux. Web del reto: https://overthewire.org/",
@@ -11,6 +12,7 @@
         {
             "id":"1",
             "name":"ctf-bandit-parteII",
+            "fileName": "ctfbanditi2",
             "thumbnail":"http://www.publicdomainpictures.net/pictures/10000/nahled/thinking-monkey-11282237747K8xB.jpg",
             "date":"8 Mayo 2022",
             "description":"Parte 2 del reto CTF para novatos",
@@ -19,7 +21,8 @@
         },
         {
             "id":"3",
-            "name":"splunk",
+            "name":"creando-siem-splunk",
+            "fileName": "splunk",
             "thumbnail":"https://upload.wikimedia.org/wikipedia/commons/4/47/Arquitectura_de_Splunk.svg",
             "date":"14 Mayo 2022",
             "description":"Crea tu primer SIEM con Splunk, la herramienta de monitorización para anticiparse a los ataques.",
@@ -28,7 +31,8 @@
         },
         {
             "id":"4",
-            "name":"hackbox1",
+            "name":"ctf-hackthebox-principiante-tierI",
+            "fileName": "hackbox1",
             "thumbnail":"./assets/img/portadaHackbox.png",
             "date":"16 Mayo 2022",
             "description":"Iniciandose en el arte del pentesting con HackteBox.",
@@ -37,7 +41,8 @@
         },
         {
             "id":"5",
-            "name":"informationGathering",
+            "name":"obtencion-pasiva-informacion-empresa",
+            "fileName": "informationGathering",
             "thumbnail":"./assets/img/osint.jpg",
             "date":"21 Mayo 2022",
             "description":"Primera etapa de un pentesting, recabar información de manera pasiva de fuentes abiertas. Vamos a practicar como realizar esta primera etapa de recolección de información totalmente de manera pasiva y con fuentes abiertas.",
@@ -46,7 +51,8 @@
         },
         {
             "id":"6",
-            "name":"ids",
+            "name":"prevencion-analisis-ataques-snort",
+            "fileName": "ids",
             "thumbnail":"./assets/img/idsips.png",
             "date":"18 Mayo 2022",
             "description":"Teoria practica sobre las diferencias entre firewall, ids y sus tipos. Además de un pequeño ejemplo de como bloquear un servidor malicioso",
@@ -56,6 +62,7 @@
         {
             "id":"7",
             "name":"sguil-detectar-ataque-ftp",
+            "fileName": "sguil",
             "thumbnail":"./assets/img/protocolo-ftp.webp",
             "date":"23 Mayo 2022",
             "description":"Práctica de cyberops para analizar un ataque realizado a un servidor FTP vulnerable. Utilizando Sguil y Kibana",
@@ -65,6 +72,7 @@
         {
             "id":"8",
             "name":"kibana-detectar-sql-injection",
+            "fileName": "kibana",
             "thumbnail":"./assets/img/dns.jpg",
             "date":"26 Mayo 2022",
             "description":"Práctica de cyberops para analizar un ataque realizado a un servidor web mediante SQL injection. Utilizando Kibana y DNS",

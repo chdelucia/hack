@@ -3,6 +3,7 @@ export interface Blog {
     description: string;
     id: string;
     name: string;
+    fileName: string;
     tags: string[];
     title: string;
     thumbnail: string;

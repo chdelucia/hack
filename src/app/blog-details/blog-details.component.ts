@@ -24,8 +24,9 @@ export class BlogDetailsComponent implements OnInit {
   ngOnInit(): void {
     const blogID = this.route.snapshot.paramMap.get('id') || '0';
     this.blogDetails = this.blog.getBlogbyId(blogID);
+    const fileName = this.blogDetails?.fileName || '';
 
-    this.getHtml(blogID);
+    this.getHtml(fileName);
   }
 
   async getHtml(blogID: string): Promise<void> {
