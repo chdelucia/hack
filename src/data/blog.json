@@ -12,12 +12,12 @@
         {
             "id":"1",
             "name":"ctf-bandit-parteII",
-            "fileName": "ctfbanditi2",
-            "thumbnail":"http://www.publicdomainpictures.net/pictures/10000/nahled/thinking-monkey-11282237747K8xB.jpg",
+            "fileName": "ctfbanditiparte2",
+            "thumbnail":"https://overthewire.org/img/domokitten.png",
             "date":"8 Mayo 2022",
             "description":"Parte 2 del reto CTF para novatos",
             "tags":["Linux","Pentesting","Iniciado","CTF"],
-            "title":"CTF BANDIT del 13 al 24"
+            "title":"CTF BANDIT del 13 al 23"
         },
         {
             "id":"3",
