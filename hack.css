@@ -1,0 +1,22 @@
+a {
+    display: inline-block;
+    width: 100px;
+    border: none;
+    height: 64px;
+    vertical-align: top;
+    background-color: rgba(0,0,0,.25);
+    margin: 1px 0 0;
+    padding-left: 24px;
+    font-weight: 100;
+    color: #fff;
+    background-color: rgba(0,0,0,.4);
+    padding-left: 0;
+    -webkit-transition: background-color 250ms;
+    transition: background-color 250ms;
+    display: flex;
+    justify-content: center;
+}
+a:hover {
+    background-color: rgba(0,0,0,.2);
+    text-decoration: none;
+}
